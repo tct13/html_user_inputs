@@ -1,35 +1,78 @@
-general_assembly_logo.png
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>General Assembly Account Creation</title>
+  </head>
 
-General Assembly Account Creation
+  <body>
+  <img src="general_assembly_logo.png" alt="GA logo">
 
-Welcome to the General Assembly. General Assembly is a global
-institution training people all over the world in today's top
-technologies.
+  <h1>General Assembly Account Creation</h1>
 
-Please fill out the information below to create your General Assembly
-account. Let us know what city you're in and what course
-you're taking. This list is for all students. Please tell us what
-city you're in and whether you're taking the Immersive User Experience (UX)
-course or the Immersive Web Development course. 
+  <p>
+    Welcome to the General Assembly. General Assembly is a global
+    institution training people all over the world in today's top
+    technologies.
 
-City:
-  Hong Kong
-  London
-  Los Angeles
-  New York
-  Portland
-  San Francisco
-  Seattle
-  Singapore
+    <br>
+    <br>
 
-Course:
-  (0) UX
-  ( ) Web Dev
+    Please fill out the information below to create your General Assembly
+    account. Let us know what city you're in and what course
+    you're taking. This list is for all students. Please tell us what
+    city you're in and whether you're taking the Immersive User Experience (UX)
+    course or the Immersive Web Development course.
+  </p>
 
-Name:     _________
-Email:    _________
-Password: *********
+  <label for="name">City:</label>
+    <select>
+      <option value="Seattle">Seattle</option>
+      <option value="Hong Kong">Hong Kong</option>
+      <option value="London">London</option>
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="New York">New York</option>
+      <option value="Portland">Portland</option>
+      <option value="San Francisco">San Francisco</option>
+      <option value="Singapore">Singapore</option>
+    </select>
 
-[] Yes, subscribe me to the General Assembly student newsletter
+    <br>
+    <br>
 
-[Subscribe]
+  <form class="#" action="success.html" method="post">
+    <label for="Course">Course:</label>
+    <input type="radio" name="Course" value="UX">UX
+    <input type="radio" name="Course" value="Web Dev" checked>Web Dev
+
+    <br>
+    <br>
+
+    <label for="Name">Name</label>
+    <input type="text" name="Name" value="">
+
+    <br>
+    <br>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" value="">
+
+    <br>
+    <br>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" value="">
+
+    <br>
+    <br>
+
+    <input type="checkbox" name="" value="" checked> Yes, subscribe me to the General Assembly student newsletter
+
+    <br>
+    <br>
+
+    <button type="button" name="button">Subscribe</button>
+  </form>
+
+  </body>
+</html>
